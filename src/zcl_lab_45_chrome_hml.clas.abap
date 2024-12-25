@@ -1,0 +1,21 @@
+CLASS zcl_lab_45_chrome_hml DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+     data log type string.
+     METHODS ON_CLOSE_WINDOW FOR EVENT  CLOSE_WINDOW of zif_lab_05_browser_hml.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_LAB_45_CHROME_HML IMPLEMENTATION.
+
+
+  METHOD on_close_window.
+    log = |Close Windows|.
+  ENDMETHOD.
+ENDCLASS.

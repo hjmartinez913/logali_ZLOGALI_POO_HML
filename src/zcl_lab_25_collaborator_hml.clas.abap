@@ -1,0 +1,23 @@
+CLASS zcl_lab_25_collaborator_hml DEFINITION INHERITING FROM ZCL_LAB_24_PARTNER_HML
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  METHODS GET_CAPITAL EXPORTING ev_capital TYPE string.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_LAB_25_COLLABORATOR_HML IMPLEMENTATION.
+
+
+  METHOD get_capital.
+    me->get_company_capital(
+      IMPORTING
+        ev_capital = ev_capital
+    ).
+  ENDMETHOD.
+ENDCLASS.

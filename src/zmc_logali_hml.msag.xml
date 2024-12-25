@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_LOGALI_HML</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Clase de mensajes</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_LOGALI_HML</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>El usuario &amp;1 no está permitido de ejecutar el proceso del negocio</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_LOGALI_HML</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>El usuario &amp;1 no está permitido de acceder a invocar el recurso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_LOGALI_HML</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>IBAN reanudable</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

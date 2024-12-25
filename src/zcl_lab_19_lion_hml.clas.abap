@@ -1,0 +1,28 @@
+CLASS zcl_lab_19_lion_hml DEFINITION INHERITING FROM ZCL_LAB_18_ANIMAL_HML
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    data cola type string.
+    METHODS walk REDEFINITION.
+    METHODS run.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+   data ruge type string.
+ENDCLASS.
+
+
+
+CLASS ZCL_LAB_19_LION_HML IMPLEMENTATION.
+
+
+  METHOD run.
+
+  ENDMETHOD.
+
+
+  METHOD walk.
+    rv_value = | The lion walks |.
+  ENDMETHOD.
+ENDCLASS.

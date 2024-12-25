@@ -1,0 +1,4 @@
+INTERFACE zif_lab_04_employee_hml
+  PUBLIC .
+        METHODS GET_EMPLOYEES_COUNT  RETURNING VALUE(rv_count) TYPE string.
+ENDINTERFACE.

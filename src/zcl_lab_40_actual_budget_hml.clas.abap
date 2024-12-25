@@ -1,0 +1,21 @@
+CLASS zcl_lab_40_actual_budget_hml DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_lab_39_budget_hml
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS: get_budget REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_LAB_40_ACTUAL_BUDGET_HML IMPLEMENTATION.
+
+
+  METHOD get_budget.
+    rv_budget = me->budget.
+  ENDMETHOD.
+ENDCLASS.
